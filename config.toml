@@ -1,0 +1,25 @@
+baseURL = 'http://it.mbblog.io/'
+languageCode = 'en-US'
+title = 'it.mbblog.io'
+DefaultContentLanguage = "en"
+theme = "PaperMod"
+
+[languages]
+  [languages.en]
+    disabled = false
+    weight = 1
+    contentDir = "content"
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    [languages.en.params]
+      [languages.en.params.profileMode]
+        enabled = true
+        title = 'it.mbblog.io'
+        subtitle = 'This page is currently under construction'
+
+[params]
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowReadingTime = true
+  disableScrollToTop = false
