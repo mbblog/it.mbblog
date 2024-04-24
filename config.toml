@@ -4,6 +4,12 @@ title = 'it.mbblog.io'
 DefaultContentLanguage = "en"
 theme = "PaperMod"
 
+enableRobotsTXT = true
+
+# this is needed to allow usage of plain html syntax in markdown files
+[markup.goldmark.renderer]
+unsafe = true
+
 [languages]
   [languages.en]
     disabled = false
@@ -22,4 +28,24 @@ theme = "PaperMod"
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowReadingTime = true
+  ShowShareButtons = true
   disableScrollToTop = false
+  env = 'production'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 5
+  [[menus.main]]
+    name = 'Posts'
+    pageRef = '/posts'
+    weight = 10
+  [[menus.main]]
+    name = 'Categories'
+    pageRef = '/categories'
+    weight = 15
+  [[menus.main]]
+    name = 'Archive'
+    pageRef = '/archives'
+    weight = 20
