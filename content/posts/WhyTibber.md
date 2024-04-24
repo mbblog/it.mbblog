@@ -1,7 +1,7 @@
 ---
 author: "Mathis Bramkamp"
 title: "Why I use Tibber as my electricity provider"
-date: "2024-04-25"
+date: "2024-04-24"
 description: "This is a blog post describing my personal motivation to use Tibber as my electricity provider"
 summary: "This blog post describes my personal motivitation to use Tibber as my electricity provider and it also includes a brief analysis on how it is going so far"
 categories: ["home"]
